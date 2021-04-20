@@ -5,7 +5,7 @@ const problemSchema = new Schema({
     id: Number,
     title: String,
     content: String,
-    lab_id: ObjectId
+    lab_id: String
 });
 
 const ProblemModel = mongoose.model('Problem', problemSchema)

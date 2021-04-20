@@ -8,5 +8,5 @@ const teacherSchema = new Schema({
     password: String
 });
 
-const TeacherModel = mongoose.model('Lab', teacherSchema)
+const TeacherModel = mongoose.model('Teacher', teacherSchema)
 module.exports = TeacherModel
